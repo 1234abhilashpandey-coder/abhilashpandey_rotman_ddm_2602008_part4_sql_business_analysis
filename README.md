@@ -1,25 +1,10 @@
-# Part 4 - SQL Business Analysis Capstone
-
-> **Important:** Rename the repository and root folder to your exact required format before submission: `yourname_yourid_part4_sql_business_analysis`.
+# Capstone Project Part 4 - SQL Business Analysis Capstone
 
 ## Student Details
-- **Student Name:** Replace with your full name
-- **Student ID:** Replace with your student ID
+- **Student Name:** Abhilash Pandey
+- **Student ID:** rotman_ddm_2602008 
 - **Assignment Title:** Part 4 - SQL Business Analysis Capstone
 - **Database System Used:** SQLite
-
-## Repository Name Format
-Use this exact format:
-
-```text
-yourname_yourid_part4_sql_business_analysis
-```
-
-Example:
-
-```text
-rahulsharma_12345_part4_sql_business_analysis
-```
 
 ## Database Overview
 This project designs a normalized relational database for an e-commerce business. It stores customer details, product catalog data, orders, order line items, and payment records. The dataset was custom-created to satisfy the assignment rules, including multiple cities, regions, customer segments, product categories, cancelled and returned orders, failed payments, customers without orders, orders with multiple products, and products that were never ordered.
@@ -99,12 +84,12 @@ sqlite3 ecommerce_analysis.db < data/insert_data.sql
 
 ## Screenshots of Query Outputs
 Screenshots are available in `outputs/screenshots/`:
-- `01_tables_created.png` - tables created successfully
-- `02_sample_inserted_data.png` - sample inserted data
-- `03_aggregation_output.png` - aggregation query output
-- `04_join_output.png` - join query output
-- `05_subquery_output.png` - subquery query output
-- `06_business_insight_output.png` - business insight query output
+![table created](outputs/screenshots/01_tables_created.png)
+![table created](outputs/screenshots/02_sample_inserted_data.png)
+![table created](outputs/screenshots/03_aggregation_output.png)
+![table created](outputs/screenshots/04_join_output.png)
+![table created](outputs/screenshots/05_subquery_output.png)
+![table created](outputs/screenshots/06_business_insight_output.png)
 
 ## At Least 5 Business Insights Based on SQL Output
 - 1. Prioritize the Corporate segment because it generates the highest revenue (191684.85).
