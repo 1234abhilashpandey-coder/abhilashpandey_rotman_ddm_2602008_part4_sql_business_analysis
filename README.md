@@ -1,5 +1,4 @@
-# Capstone Project Part 4 - SQL Business Analysis Capstone
-
+# Capstone Project Part 4 - SQL Business Analysis
 ## Student Details
 - **Student Name:** Abhilash Pandey
 - **Student ID:** rotman_ddm_2602008 
